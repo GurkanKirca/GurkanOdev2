@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="102.2547">
+<testcase classname="E-commerce" name="1 - Add product to cart with user login" time="102.2547">
+<system-out><![CDATA[Given I initialize chrome driver............................................passed
+When I go to "https://www.hepsiburada.com/" url.............................passed
+Then I see home page........................................................passed
+When I focus sign in title element..........................................passed
+When I click element: login button index: 1.................................passed
+Then I see login page.......................................................passed
+When I enter "grkn_gk@hotmail.com" text to email address bar text area......passed
+Then I click element: submit login button1 index: 1.........................passed
+When I enter "beykoz08" text to password bar text area......................passed
+Then I click element: submit login button2 index: 1.........................passed
+When I see home page........................................................passed
+Then I wait for 2 seconds...................................................passed
+When I enter "kedi maması" text to search input box text area...............passed
+Then I click "ENTER" keyboard button........................................passed
+And I see search results page...............................................passed
+When I focus product results button element.................................passed
+Then I click element: product results button index: 1.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
