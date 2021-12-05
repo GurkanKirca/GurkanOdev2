@@ -14,7 +14,7 @@ Feature: E-commerce
     When I enter "grkn_gk@hotmail.com" text to email address bar text area
     Then I click element: submit login button1 index: 1
 
-    When I enter "beykoz08" text to password bar text area
+    When I enter "" text to password bar text area
     Then I click element: submit login button2 index: 1
 
     When I see home page
