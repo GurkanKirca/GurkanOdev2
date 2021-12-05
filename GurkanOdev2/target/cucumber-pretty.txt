@@ -1,0 +1,23 @@
+Feature: E-commerce
+
+  Background:                                       [90m# src/test/resources/features/e-commerce.feature:3[0m
+    [32mGiven [0m[32mI initialize [0m[32m[1mchrome[0m[32m driver[0m                [90m# MySteps.initializeChromeDriver(String)[0m
+    [32mWhen [0m[32mI go to "[0m[32m[1mhttps://www.hepsiburada.com/[0m[32m" url[0m [90m# MySteps.gotoURL(String)[0m
+    [32mThen [0m[32mI see [0m[32m[1mhome[0m[32m page[0m                            [90m# MySteps.seePage(String)[0m
+
+  @gurkan
+  Scenario: 1 - Add product to cart with user login                        [90m# src/test/resources/features/e-commerce.feature:9[0m
+    [32mWhen [0m[32mI focus [0m[32m[1msign in title[0m[32m element[0m                                     [90m# MySteps.mouseHover(String)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1mlogin button[0m[32m index: [0m[32m[1m1[0m                            [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI see [0m[32m[1mlogin[0m[32m page[0m                                                  [90m# MySteps.seePage(String)[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mgrkn_gk@hotmail.com[0m[32m" text to [0m[32m[1memail address bar[0m[32m text area[0m [90m# MySteps.enterText(String,String)[0m
+    [32mThen [0m[32mI click element: [0m[32m[1msubmit login button1[0m[32m index: [0m[32m[1m1[0m                    [90m# MySteps.clickElement(String,int)[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mbeykoz08[0m[32m" text to [0m[32m[1mpassword bar[0m[32m text area[0m                 [90m# MySteps.enterText(String,String)[0m
+    [32mThen [0m[32mI click element: [0m[32m[1msubmit login button2[0m[32m index: [0m[32m[1m1[0m                    [90m# MySteps.clickElement(String,int)[0m
+    [32mWhen [0m[32mI see [0m[32m[1mhome[0m[32m page[0m                                                   [90m# MySteps.seePage(String)[0m
+    [32mThen [0m[32mI wait for [0m[32m[1m2[0m[32m seconds[0m                                              [90m# MySteps.waitForNSeconds(int)[0m
+    [32mWhen [0m[32mI enter "[0m[32m[1mkedi maması[0m[32m" text to [0m[32m[1msearch input box[0m[32m text area[0m          [90m# MySteps.enterText(String,String)[0m
+    [32mThen [0m[32mI click "[0m[32m[1mENTER[0m[32m" keyboard button[0m                                   [90m# MySteps.clickKeyboard(String)[0m
+    [32mAnd [0m[32mI see [0m[32m[1msearch results[0m[32m page[0m                                          [90m# MySteps.seePage(String)[0m
+    [32mWhen [0m[32mI focus [0m[32m[1mproduct results button[0m[32m element[0m                            [90m# MySteps.mouseHover(String)[0m
+    [32mThen [0m[32mI click element: [0m[32m[1mproduct results button[0m[32m index: [0m[32m[1m1[0m                  [90m# MySteps.clickElement(String,int)[0m

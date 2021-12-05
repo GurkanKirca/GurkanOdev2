@@ -1,0 +1,254 @@
+[
+  {
+    "source": "^I initialize (chrome|firefox) driver$",
+    "steps": [
+      {
+        "name": "I initialize chrome driver",
+        "aggregatedDurations": {
+          "median": 11.9747027,
+          "average": 11.974702700
+        },
+        "durations": [
+          {
+            "duration": 11.9747027,
+            "location": "file:src/test/resources/features/e-commerce.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to \"([^\"]*)\" url$",
+    "steps": [
+      {
+        "name": "I go to \"https://www.hepsiburada.com/\" url",
+        "aggregatedDurations": {
+          "median": 11.9004393,
+          "average": 11.900439300
+        },
+        "durations": [
+          {
+            "duration": 11.9004393,
+            "location": "file:src/test/resources/features/e-commerce.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see (.*) page$",
+    "steps": [
+      {
+        "name": "I see home page",
+        "aggregatedDurations": {
+          "median": 0.001673600,
+          "average": 0.001673600
+        },
+        "durations": [
+          {
+            "duration": 0.0026624,
+            "location": "file:src/test/resources/features/e-commerce.feature:6"
+          },
+          {
+            "duration": 0.0006848,
+            "location": "file:src/test/resources/features/e-commerce.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I see login page",
+        "aggregatedDurations": {
+          "median": 0.0014778,
+          "average": 0.001477800
+        },
+        "durations": [
+          {
+            "duration": 0.0014778,
+            "location": "file:src/test/resources/features/e-commerce.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I see search results page",
+        "aggregatedDurations": {
+          "median": 0.0006561,
+          "average": 0.000656100
+        },
+        "durations": [
+          {
+            "duration": 0.0006561,
+            "location": "file:src/test/resources/features/e-commerce.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?focus (.*) element$",
+    "steps": [
+      {
+        "name": "I focus sign in title element",
+        "aggregatedDurations": {
+          "median": 4.2540285,
+          "average": 4.254028500
+        },
+        "durations": [
+          {
+            "duration": 4.2540285,
+            "location": "file:src/test/resources/features/e-commerce.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I focus product results button element",
+        "aggregatedDurations": {
+          "median": 9.3881504,
+          "average": 9.388150400
+        },
+        "durations": [
+          {
+            "duration": 9.3881504,
+            "location": "file:src/test/resources/features/e-commerce.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?click element: (\\w+(?: \\w+)*) index: (\\d+)$",
+    "steps": [
+      {
+        "name": "I click element: login button index: 1",
+        "aggregatedDurations": {
+          "median": 2.8018524,
+          "average": 2.801852400
+        },
+        "durations": [
+          {
+            "duration": 2.8018524,
+            "location": "file:src/test/resources/features/e-commerce.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I click element: submit login button1 index: 1",
+        "aggregatedDurations": {
+          "median": 0.1023972,
+          "average": 0.102397200
+        },
+        "durations": [
+          {
+            "duration": 0.1023972,
+            "location": "file:src/test/resources/features/e-commerce.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "I click element: submit login button2 index: 1",
+        "aggregatedDurations": {
+          "median": 0.0947691,
+          "average": 0.094769100
+        },
+        "durations": [
+          {
+            "duration": 0.0947691,
+            "location": "file:src/test/resources/features/e-commerce.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I click element: product results button index: 1",
+        "aggregatedDurations": {
+          "median": 0.1764047,
+          "average": 0.176404700
+        },
+        "durations": [
+          {
+            "duration": 0.1764047,
+            "location": "file:src/test/resources/features/e-commerce.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter \"([^\"]*)\" text to (.*) text area$",
+    "steps": [
+      {
+        "name": "I enter \"grkn_gk@hotmail.com\" text to email address bar text area",
+        "aggregatedDurations": {
+          "median": 10.8737456,
+          "average": 10.873745600
+        },
+        "durations": [
+          {
+            "duration": 10.8737456,
+            "location": "file:src/test/resources/features/e-commerce.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"beykoz08\" text to password bar text area",
+        "aggregatedDurations": {
+          "median": 6.4768171,
+          "average": 6.476817100
+        },
+        "durations": [
+          {
+            "duration": 6.4768171,
+            "location": "file:src/test/resources/features/e-commerce.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"kedi maması\" text to search input box text area",
+        "aggregatedDurations": {
+          "median": 10.4834219,
+          "average": 10.483421900
+        },
+        "durations": [
+          {
+            "duration": 10.4834219,
+            "location": "file:src/test/resources/features/e-commerce.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I )?wait for (\\d+) seconds?$",
+    "steps": [
+      {
+        "name": "I wait for 2 seconds",
+        "aggregatedDurations": {
+          "median": 2.000874,
+          "average": 2.000874000
+        },
+        "durations": [
+          {
+            "duration": 2.000874,
+            "location": "file:src/test/resources/features/e-commerce.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click \"([^\"]*)\" keyboard button$",
+    "steps": [
+      {
+        "name": "I click \"ENTER\" keyboard button",
+        "aggregatedDurations": {
+          "median": 0.0416623,
+          "average": 0.041662300
+        },
+        "durations": [
+          {
+            "duration": 0.0416623,
+            "location": "file:src/test/resources/features/e-commerce.feature:24"
+          }
+        ]
+      }
+    ]
+  }
+]
